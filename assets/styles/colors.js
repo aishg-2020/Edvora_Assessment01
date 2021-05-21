@@ -1,0 +1,27 @@
+let colors = {
+  Primary_1: "#292929",
+  Primary_2: "#232323",
+  Primary_3: "#ffffff",
+  Primary_4: "#5c5355",
+  Primary_5: "#000000",
+  Primary_6: "#a7a7a7",
+  Primary_7: "#131313",
+  Primary_8: "#a5a5a5",
+  Secondary_1: "#333333",
+  Secondary_2: "#707070",
+  Secondary_3: "#A9A9A9",
+  Secondary_4: "#DCDCDC",
+  Secondary_5: "#EBEBEB",
+  Secondary_6: "#DEF9ED",
+  Secondary_7: "#F5F5F5",
+  Secondary_8: "#0080000D",
+  Secondary_9: "#fff4f0",
+  Secondary_10: "#f5f7fa",
+  Secondary_11: "#f0f8ff",
+  Secondary_12: "#DDD",
+  Secondary_13: "#feedf1",
+  Secondary_14: "#FE9E89",
+  Default: "#FFFFFF",
+};
+
+export default colors;

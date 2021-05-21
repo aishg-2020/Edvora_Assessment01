@@ -1,0 +1,225 @@
+@import "./colors";
+
+.fontRoboto {
+  font-family: Roboto;
+}
+.primaryFontLarge {
+  color: $Primary_3;
+  font-size: 35px;
+}
+.primaryFont {
+  color: $Primary_3;
+}
+
+.primarySubtleFont {
+  color: $Primary_6;
+}
+
+.font25 {
+  font-size: 25px;
+}
+.font20 {
+  font-size: 20px;
+}
+.font17 {
+  font-size: 17px;
+}
+.font30 {
+  font-size: 30px;
+}
+.font12 {
+  font-size: 12px;
+}
+
+.primary8Font {
+  color: $Primary_8;
+}
+
+.sideNavBackGround {
+  background-color: $Primary_5;
+}
+
+.positionSticky {
+  position: sticky;
+}
+
+.width100px {
+  width: 100px;
+}
+
+.marginAuto {
+  margin: auto;
+}
+
+.primaryHr {
+  border: 1px solid $Primary_8;
+}
+.flexRowStart {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.flexRowSpc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flexColStart {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.flexColCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.alignCenter {
+  align-items: center;
+}
+.boldText {
+  font-weight: bold;
+}
+
+.highlighted {
+  background-color: $Primary_4;
+}
+
+.marginTB1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.padding1 {
+  padding: 1rem;
+}
+.padddingRight1 {
+  padding-right: 1rem;
+}
+.paddingTopBottom1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.paddingBottom1 {
+  padding-bottom: 1rem;
+}
+.marginTop1 {
+  margin-top: 1rem;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+
+.primary2Background {
+  background-color: $Primary_2;
+}
+.subtleBlackBackground {
+  background-color: $Primary_7;
+}
+.textLeft {
+  text-align: left;
+}
+.textRight {
+  text-align: right;
+}
+.cursorPointer {
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background: $Secondary_3;
+  border-radius: 0 8px 8px 0;
+  height: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: $Secondary_1;
+  border-radius: 0 8px 8px 0;
+}
+
+.scrollY {
+  overflow-y: auto;
+}
+.scrollX {
+  overflow-x: auto;
+}
+.height100vh {
+  height: 100vh;
+}
+.width100vw {
+  width: 100vw;
+}
+.width100p{
+  width: 100%;
+}
+// .layout {
+//   width: 1200;
+//   height: 800;
+// }
+.visiblityHidden {
+  visibility: hidden;
+}
+.visiblityVisible {
+  visibility: visible;
+}
+.circularImage {
+  border-radius: 50%;
+}
+.flexColSpc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.flexRowSpcAround {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.flexRowCenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.textInput {
+  outline: none;
+  width: -webkit-fill-available;
+  border-radius: 0.313rem;
+  border: 1px;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  opacity: 1;
+  color: $Primary_3;
+  background-color: $Secondary_4;
+}
+
+.profileIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.profileIconLarge {
+  width: 7rem;
+  height: 7rem;
+}
+
+.btn {
+  border-radius: 0.313rem;
+  border: 1px;
+  padding: 0.8rem;
+  background-color: $Secondary_5;
+  @extend .primaryFont;
+}
+
+body {
+  background-color: $Primary_2;
+}
+
+@media screen and (max-width: "768px") {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.whiteIconClass {
+  filter: invert(99%) sepia(99%) saturate(2%) hue-rotate(351deg)
+    brightness(102%) contrast(101%);
+}
